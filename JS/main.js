@@ -9,3 +9,11 @@ $('.carousel').carousel({
       nav.classList.toggle('fixed-top', position);
       nav.classList.toggle("active", position);
   });
+
+//   Loader
+
+let Loader = document.getElementById("loader");
+
+function loaderfun(){
+    Loader.style.display="none";
+}
